@@ -49,8 +49,7 @@ app.get("/url/emotion", (req,res) => {
                 "emotion": true,
                 "limit": 1
             }
-        },
-        "language": "en"
+        }
     }
 
     const naturalLanguageUnderstanding = getNLUInstance();
@@ -76,8 +75,7 @@ app.get("/url/sentiment", (req,res) => {
                 "sentiment": true,
                 "limit": 1
             }
-        },
-        "language": "en"
+        }
     }
 
     const naturalLanguageUnderstanding = getNLUInstance();
